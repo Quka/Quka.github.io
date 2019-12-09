@@ -1,0 +1,143 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["hero-hero-module"],{
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/hero/hero.component.html":
+/*!********************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/hero/hero.component.html ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>hero works!</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/hero/hero-routing.module.ts":
+/*!*********************************************!*\
+  !*** ./src/app/hero/hero-routing.module.ts ***!
+  \*********************************************/
+/*! exports provided: HeroRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeroRoutingModule", function() { return HeroRoutingModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _hero_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./hero.component */ "./src/app/hero/hero.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+const routes = [
+    { path: '', component: _hero_component__WEBPACK_IMPORTED_MODULE_2__["HeroComponent"] }
+];
+let HeroRoutingModule = class HeroRoutingModule {
+};
+HeroRoutingModule = __decorate([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forChild(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
+    })
+], HeroRoutingModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/hero/hero.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/hero/hero.component.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hlcm8vaGVyby5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/hero/hero.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/hero/hero.component.ts ***!
+  \****************************************/
+/*! exports provided: HeroComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeroComponent", function() { return HeroComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+let HeroComponent = class HeroComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+HeroComponent = __decorate([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+        selector: 'app-hero',
+        template: __webpack_require__(/*! raw-loader!./hero.component.html */ "./node_modules/raw-loader/index.js!./src/app/hero/hero.component.html"),
+        styles: [__webpack_require__(/*! ./hero.component.css */ "./src/app/hero/hero.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], HeroComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/hero/hero.module.ts":
+/*!*************************************!*\
+  !*** ./src/app/hero/hero.module.ts ***!
+  \*************************************/
+/*! exports provided: HeroModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeroModule", function() { return HeroModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _hero_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./hero-routing.module */ "./src/app/hero/hero-routing.module.ts");
+/* harmony import */ var _hero_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./hero.component */ "./src/app/hero/hero.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+let HeroModule = class HeroModule {
+};
+HeroModule = __decorate([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+        declarations: [_hero_component__WEBPACK_IMPORTED_MODULE_3__["HeroComponent"]],
+        imports: [
+            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+            _hero_routing_module__WEBPACK_IMPORTED_MODULE_2__["HeroRoutingModule"]
+        ]
+    })
+], HeroModule);
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=hero-hero-module-es2015.js.map
